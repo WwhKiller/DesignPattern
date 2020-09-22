@@ -7,6 +7,7 @@ package StrategyPattern;
  */
 public class Main {
     public static void main(String[] args) {
+
         int num1 =9,num2=4;
 
         Context subOperation = new Context(new SubOperation());
